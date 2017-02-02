@@ -1,28 +1,152 @@
-h2><a id="Welcome_to_GitHub_Pages_0"></a>Welcome to GitHub Pages</h2>
-<p>You can use the <a href="https://github.com/Btayeg/PAR/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-<h2><a id="Markdown_6"></a>Markdown</h2>
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-<pre><code class="language-markdown">Syntax highlighted code block
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TITLE OF YOUR SESSION</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/ico" href="https://mozillascience.org/img/favicon.ico">
 
-<span class="hljs-header"># Particiapt 1</span>
-<span class="hljs-header">## Header 2</span>
-<span class="hljs-header">### Header 3</span>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../assets/javascript/script.js" type="text/javascript" charset="utf-8"></script>
+  </head>
 
-<span class="hljs-bullet">- </span>Bulleted
-<span class="hljs-bullet">- </span>List
+  <body>
+    <aside>
+      <div class="logo">
+        <a href="https://mozillafoundation.github.io/2017-fellows-sf/" title="SF Workweek Homepage">
+          <img src="../assets/images/science-fox_naranja.svg" />
+        </a>
+      </div>
+      <nav>
+        <a class="selected" href="#introduction">Introduction</a>
+        <a href="#steps-to-complete">Steps to Complete</a>
+        <a href="#glossary">Glossary</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </aside>
 
-<span class="hljs-bullet">1. </span>Numbered
-<span class="hljs-bullet">2. </span>List
+    <article>
+      <div class="logo">
+        <a href="https://mozillascience.org" title="Mozilla Science Lab">
+          <img src="../assets/images/science-lab-logo.svg" />
+        </a>
+      </div>
 
-<span class="hljs-strong">**Bold**</span> and <span class="hljs-emphasis">_Italic_</span> and <span class="hljs-code">`Code`</span> text
 
-[<span class="hljs-link_label">Link</span>](<span class="hljs-link_url">url</span>) and ![<span class="hljs-link_label">Image</span>](<span class="hljs-link_url">src</span>)
-</code></pre>
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-<h3><a id="Jekyll_Themes_30"></a>Jekyll Themes</h3>
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/Btayeg/PAR/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>
-<h3><a id="Support_or_Contact_34"></a>Support or Contact</h3>
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+      <h1>TITLE OF YOUR SESSION</h1>
 
-</body></html>
+      <div class="meta-information">
+        <p class="summary">
+          Summary of what the activity is about.
+        </p>
+        <div class="details">
+          <time>90 minutes</time>
+          <p class="difficulty">For beginners</p>
+        </div>
+      </div>
+
+      <section class="presentation-details">
+        <section>
+          <h4>Format</h4>
+          <p>
+            This exercise works well as an in-person workshop or an online exercise.
+            It can be done individually or in a group.
+          </p>
+        </section>
+        <section>
+          <h4>Materials</h4>
+          <ul>
+            <li>
+              Pen/pencil &amp; paper
+            </li>
+            <li>
+              Collaborative document editor like
+              Etherpad or Google Docs
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <h2 id="introduction">Introduction</h2>
+
+      <p>
+        Describe the activity or session outline here.
+      </p>
+      <p>
+        It is sometimes best to practice
+        building a markdown file in an offline program like <a href="http://25.io/mou/">Mou</a>
+        or an online one like <a href="http://dillinger.io/">Dilliger</a> before you post it online.
+      </p>
+
+      <h2 id="steps-to-complete">Steps to Complete</h2>
+      <ol class="steps">
+        <!-- Step 1 -->
+        <li>
+          <h1>Background / Planning</h1>
+          <p>
+            Present some background information to support your session, replace this text with whatever links and resources you might need.
+          </p>
+        </li>
+
+        <!-- Step 2 -->
+        <li>
+          <h1>Create a Resource</h1>
+          <!-- you can add tim limitations to each step with the notation below -->
+          <!-- <time>3 minutes each</time> -->
+          <p>
+            Provide some paragraph instructions on creating a resource or materials or notes that apply the backgroun you provided to other projects; if you have several projects, consider adopting a template "project structure"
+            that is consistent across projects, take a look at this <a href="https://github.com/CODESIGN2/Project-Structure">example</a>.
+          </p>
+        </li>
+
+        <!-- Step 3 -->
+        <li>
+          <h1>Make Supporting Materials</h1>
+          <!-- <time>30 minutes</time> -->
+          <p>
+            <strong>Make a THING</strong>: Provide instructions for whatever is needed to make supporting materials or a more polished version of the draft in step 2
+          </p>
+        </li>
+      </ol>
+
+      <h2 id="glossary">Glossary</h2>
+      <section class="glossary">
+        <section class="term">
+          <h3>Term-to-Define</h3>
+          <p>Some definition of that term.</p>
+        </section>
+        <section class="term">
+          <h3>Term-to-Define-2</h3>
+          <p>Some definition of another term.</p>
+        </section>
+      </section>
+
+      <h2 id="resources">Follow-up Resources &amp; Materials</h2>
+      <ul>
+        <li>
+          <a href="https://public.etherpad-mozilla.org/p/2017-sf-workweek-berhan">Etherpad for this session</a>
+        </li>
+        <li>
+          <a href="">Some other resource</a>
+        </li>
+      </ul>
+
+      <h2>Credits &amp; Attribution</h2>
+      <p>This is any kudos or contributions you'd like to acknowledge</p>
+
+      <!--
+      <section class="resources">
+        <section class="resource">
+          <h4>Resource Name</h4>
+          <a href="#">http://link.to/resource</a>
+          <p>This is a description of the resource. Summarizes what it is, you know?</p>
+        </section>
+      </section>
+      -->
+
+    </article>
+  </body>
+</html>
